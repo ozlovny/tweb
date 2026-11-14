@@ -22,7 +22,7 @@ export type RSAPublicKeyHex = {
  * modulus: 512 символов hex без пробелов и без ведущих нулей, exponent: '010001'.
  */
 const SERVER_RSA_KEY: RSAPublicKeyHex = {
-  modulus: 'PASTE_MODULUS_HERE',
+  modulus: 'deccd688a8c568c36d7a072beb895d920d829c2aefcfbc28e73420cc523f219e03c2050bace17ec1d5c681ec9b1e2eef0e512d34ab9a56d43c5f0853f3501bc31a08f2dd65be4cec7732b5c8225d44cad54d63c015a2964deca58cf56d620d303870cf67cf8d002cd35b6c5c94e2a144ce5f20ef0a3852becfda73d47dbc54241dc9c6906c81fc2e3bd6347c31a4818c56295a059c1dbc96d3d8fb8ab859c7f0c6aa825ef7c6582f3bd4d56baec0b8f6ebd2aae708f88c40dc47aefa1a85dde99aed090c250f2b4c59ab2fc42a6f31cb6dc3e6eb0d05396bc55c7c3bafec78991f80f43c079c494aae5d0a782f6289f2973d97945bb0d12858beb1a6966d854d',
   exponent: '010001'
 };
 
