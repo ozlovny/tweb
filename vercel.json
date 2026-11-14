@@ -5,10 +5,6 @@
       "root": ".",
       "framework": "vite"
     },
-    "noise-suppression-eval": {
-      "root": "scripts/noise-suppression-eval",
-      "runtime": "python"
-    },
     "snapshot-server": {
       "root": "snapshot-server",
       "framework": "express"
