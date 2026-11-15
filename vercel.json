@@ -1,21 +1,7 @@
 {
   "$schema": "https://openapi.vercel.sh/vercel.json",
-  "services": {
-    "app": {
-      "root": ".",
-      "framework": "vite"
-    },
-    "snapshot-server": {
-      "root": "snapshot-server",
-      "framework": "express"
-    }
-  },
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": {
-        "service": "app"
-      }
-    }
-  ]
+  "framework": "vite",
+  "installCommand": "pnpm install",
+  "buildCommand": "(pnpm run generate-changelog || true) && pnpm exec vite build --outDir dist",
+  "outputDirectory": "dist"
 }
