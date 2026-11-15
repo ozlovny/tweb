@@ -28,8 +28,7 @@ type Servers = {
 };
 
 /* ============================ НАСТРОЙКИ СВОЕГО СЕРВЕРА ============================ */
-const SERVER_HOST = 'telega.wispbyte.app';
-const SERVER_PORT = 14486;      // 0 или 443 для TLS: порт в адресе не пишется
+const SERVER_HOST = 'telega.wispbyte.app';      // 0 или 443 для TLS: порт в адресе не пишется
 // wss:// если страница открыта по HTTPS (иначе браузер заблокирует ws://), ws:// если по обычному HTTP.
 // Работает и в воркерах: у них тот же origin, что у страницы.
 const SERVER_TLS = typeof self !== 'undefined' && self.location?.protocol === 'https:';
